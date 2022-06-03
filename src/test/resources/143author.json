@@ -1,0 +1,208 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "author",
+      "xpath": "//a[@id='Yazar']//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "addAuthor",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[5]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "Hanife",
+      "Random": "1"
+    },
+    {
+      "name": "Surname",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[2]/input",
+      "type": "sendKeys",
+      "value":"Mehan",
+      "Random": "1"
+    },
+    {
+      "name": "SecondName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[3]/input",
+      "type": "sendKeys",
+      "value": "Hanif",
+      "Random": "1"
+    },
+    {
+      "name": "areasOfInterest",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[4]/div/div[1]/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "areasOfInterestSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "birthDay",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[5]/input",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "2"
+
+    },
+    {
+      "name": "birthdayValue",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[1]/div/input",
+      "type": "sendKeys",
+      "value": "21/07/2021"
+    },
+    {
+      "name": "mood",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div[1]/div/span/a[1]",
+      "type": "click"
+    },
+    {
+      "name": "moonSelected",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div[1]/div[2]/div/div[2]/table/tbody/tr[3]/td[1]/a",
+      "type": "click"
+    },
+    {
+      "name": "daySelected",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td[6]/div",
+      "type": "click"
+    },
+    {
+      "name": "gender",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[6]/div/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "genderSelected",
+      "xpath": "//*[@id=\"react-select-4-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[7]/div[1]/div[1]/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "languageSelected",
+      "xpath":  "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+    },
+    {
+      "name": "contents",
+      "script":"tinyMCE.activeEditor.setContent(arguments[0])",
+      "type": "executeScript",
+      "value": "contents"
+
+    },
+    {
+      "name": "authorImage",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[1]/div/div[8]/div/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "authorImageSelected",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "authorImageSelectedBtn",
+      "xpath": "/html/body/div[6]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "authorCreate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div/div[3]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateCommunicationClick",
+      "xpath": "(//*[name()='svg'][@class='MuiSvgIcon-root MuiSvgIcon-fontSizeSmall'])[2]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    },
+    {
+      "name": "InputAdressClick",
+      "xpath": "/html/body/div[5]/div/div/div[2]/div/div[2]/div[3]/div[3]/div[2]/label/div",
+      "type": "click"
+
+    },
+    {
+      "name": "InputAdress",
+      "xpath": "//input[@placeholder='Düzenlemek için tıklayınız.']",
+      "type": "sendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "InputAdressOk",
+      "xpath": "//div[@class='sc-bdfBwQ csa-ddw']//div[3]//div[2]//label[1]//div[1]//div[2]//button[1]//*[name()='svg']",
+      "type": "click"
+
+    },
+    {
+      "name": "InputAdressOkCancel",
+      "xpath": "//button[@class='MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedSecondary']",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

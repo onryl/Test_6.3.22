@@ -1,0 +1,80 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "salonManagement",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[6]/div/div/p/a[3]",
+      "type": "click"
+    },
+    {
+      "name": "select1",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/form/div/div[1]/div/div/div[2]/div[2]",
+      "type": "click"
+    },
+    {
+      "name": "selectedSelect1",
+      "xpath": "//*[@id=\"react-select-3-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "select2",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/form/div/div[2]/div/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "selectedSelect2",
+      "xpath": "//*[@id=\"react-select-7-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "addCalendarEvent",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/form/div/div[3]/button",
+      "type": "click"
+    },
+    {
+      "name": "salonLists",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "salon",
+      "Random": "1"
+    },
+    {
+      "name": "description",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div[2]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "Time",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div[3]/input",
+      "type": "click"
+    },
+    {
+      "name": "startingDate",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[1]/div[1]/div[2]/div[2]/table/tbody/tr[1]/td[4]/div",
+      "type": "click"
+    },
+    {
+      "name": "endDate",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[1]/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[4]/div",
+      "type": "click"
+    },
+    {
+      "name": "clickOk",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div/a[2]",
+      "type": "click"
+    },
+    {
+      "name": "save",
+      "xpath": "/html/body/div[3]/div/div/div[3]/span[2]/button",
+      "type": "click"
+    }
+  ]
+}

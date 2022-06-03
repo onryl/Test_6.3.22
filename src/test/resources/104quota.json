@@ -1,0 +1,83 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "quota",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/p/a[5]",
+      "type": "click"
+    },
+    {
+      "name": "addQuota",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div[3]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "educationCategory",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div/div/input",
+      "type": "click"
+    },
+    {
+      "name": "educationCategorySelected",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/ul/li[1]/span[2]",
+      "type": "click"
+    },
+    {
+      "name": "educationCategorySelectedBtn",
+      "xpath": "/html/body/div[4]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "dinamicGroup",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div[1]/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroupSelected",
+      "xpath": "//*[@id=\"react-select-3-option-1\"]",
+      "type": "click"
+    },
+    {
+      "name": "quotaAssigned",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/input",
+      "type": "sendKeys",
+      "value": "100"
+    },
+    {
+      "name": "criticalStateQuota",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/input",
+      "type": "sendKeys",
+      "value": "20"
+    },
+    {
+      "name": "startingDate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[5]/input",
+      "type": "click"
+    },
+    {
+      "name": "startingDateSelected",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div[3]/span/a[1]",
+      "type": "click"
+    },
+    {
+      "name": "endDate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[6]/input",
+      "type": "click"
+    },
+    {
+      "name": "endDateSelected",
+      "xpath": "html/body/div[5]/div/div/div/div/div[2]/div[3]/span/a[1]",
+      "type": "click"
+    },
+    {
+      "name": "quotaCreate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    }
+    ]
+}

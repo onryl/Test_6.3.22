@@ -1,0 +1,76 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "organizationalHierarchy",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[10]/div/div/p/a[4]",
+      "type": "click"
+    },
+    {
+      "name": "addOrganizationalHierarchy",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[1]/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "organizationName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "organizationName",
+      "Random": "1"
+    },
+    {
+      "name": "domainName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[1]/div[2]/input",
+      "type": "sendKeys",
+      "value": "domainName",
+      "Random": "1"
+    },
+    {
+      "name": "record",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[1]/div[3]/input",
+      "type": "sendKeys",
+      "value": "12"
+    },
+    {
+      "name": "mainOrganization",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[1]/div[4]/div/div/div/input",
+      "type": "click"
+    },
+    {
+      "name": "selectMainOrganization",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/ul/li[8]",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/ul/li[8]/span[2]",
+      "type": "click"
+    },
+    {
+      "name": "selectedDone",
+      "xpath": "/html/body/div[5]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "organizationType",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[1]/div[5]/div[1]/div",
+      "type": "click"
+    },
+    {
+      "name": "selectOrganizationType",
+      "xpath": "//*[@id=\"react-select-2-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "create",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    }
+  ]
+}

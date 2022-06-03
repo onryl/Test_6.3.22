@@ -1,0 +1,110 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "city",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[5]/div/div/p/a[2]",
+      "type": "click"
+    },
+    {
+      "name": "addCity",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "cityName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "Şehir Adı",
+      "Random": "1"
+
+    },
+    {
+      "name": "cityCode",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/input",
+      "type": "sendKeys",
+      "value":"12",
+      "Random": "1"
+
+    },
+    {
+      "name": "country",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/div[1]/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "countrySelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/div/div[1]/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "languageSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[4]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "2"
+    },
+    {
+      "name": "cityName",
+      "xpath": "//*[@id=\"react-tabs-1\"]/div/input",
+      "type": "sendKeys",
+      "value": "Türkiye"
+    },
+    {
+      "name": "cityCreate",
+      "xpath": "//span[contains(text(),'Oluştur')]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

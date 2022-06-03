@@ -1,0 +1,150 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "location",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[5]/div/div/p/a[4]",
+      "type": "click"
+    },
+    {
+      "name": "addLocation",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "locationName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "Lokasyon Adı",
+      "Random": "1"
+    },
+    {
+      "name": "key",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[2]/input",
+      "type": "sendKeys",
+      "value": "key",
+      "Random": "1"
+    },
+    {
+      "name": "postCode",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[3]/input",
+      "type": "sendKeys",
+      "value": "123456",
+      "Random": "1"
+    },
+    {
+      "name": "country",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[4]/div[1]/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "countrySelected",
+      "xpath": "//div[@class='r-select__menu css-26l3qy-menu']/div/div[5]",
+      "type": "click"
+    },
+    {
+      "name": "city",
+      "xpath": "//div[@class='sc-cBNfnY dtbZqG r-select-container css-2b097c-container'][2]",
+      "type": "click"
+    },
+    {
+      "name": "citySelected",
+      "xpath": "//div[@class='r-select__menu css-26l3qy-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "county",
+      "xpath": "//div[@class='sc-cBNfnY dtbZqG r-select-container css-2b097c-container'][3] ",
+      "type": "click"
+    },
+    {
+      "name": "countySelected",
+      "xpath": "//div[@class='r-select__menu css-26l3qy-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "longitude",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "boylam",
+      "Random": "1"
+    },
+    {
+      "name": "Latitude",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div[2]/input",
+      "type": "sendKeys",
+      "value": "enlem",
+      "Random": "1"
+    },
+    {
+      "name": "addressLine1",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div[3]/input",
+      "type": "sendKeys",
+      "value": "Küçükbakkalköy",
+      "Random": "1"
+    },
+    {
+      "name": "addressLine2",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div[4]/input",
+      "type": "sendKeys",
+      "value": "Ataşehir",
+      "Random": "1"
+    },
+    {
+      "name": "addressLine3",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div[5]/input",
+      "type": "sendKeys",
+      "value": "İstanbul",
+      "Random": "1"
+    },
+    {
+      "name": "locationCreate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

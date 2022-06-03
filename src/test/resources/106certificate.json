@@ -1,0 +1,135 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "certificate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/p/a[7]",
+      "type": "click"
+    },
+    {
+      "name": "addCertificate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[3]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "certificateName",
+      "xpath": "//input[@name='name']",
+      "type": "sendKeys",
+      "value": "Sertifika Adı",
+      "Random": "1"
+    },
+    {
+      "name": "description",
+      "xpath": "//textarea[@placeholder='Açıklama']",
+      "type": "sendKeys",
+      "value": "Açıklama",
+      "Random": "1"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/form/div[2]/div/div[2]/div/div[1]/div/div[1]/div[1]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "languageSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "5"
+    },
+    {
+      "name": "certificateContent",
+      "script":"tinyMCE.activeEditor.setContent(arguments[0])",
+      "type": "executeScript",
+      "value": "Sertifika İçeriği"
+    },
+    {
+      "name": "addCertificateImage",
+      "xpath": "//button[@aria-label='add']//span[@class='MuiIconButton-label']//*[name()='svg']",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "5"
+    },
+    {
+      "name": "SelectImaged",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+
+    {
+      "name": "SelectImgButton",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+
+    },
+    {
+      "name": "LastClick",
+      "xpath": "//span[contains(text(),'Oluştur')]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "Preview",
+      "xpath": "//span[contains(text(),'Ön İzleme')]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+    },
+    {
+      "name": "GoBack",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/h4[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

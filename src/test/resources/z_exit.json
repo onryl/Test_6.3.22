@@ -1,0 +1,32 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+    {
+      "name": "userExit1",
+      "xpath": "//*[@id=\"c8-nav-profile\"]/div",
+      "type": "click"
+    },
+    {
+      "name": "userExit2",
+      "xpath": "//*[@id=\"c8-nav-profile\"]/div/div/li[2]",
+      "type": "click"
+    },
+    {
+      "name": "userName",
+      "xpath": "//*[@id=\"root\"]/div/div/div/div[2]/form/div[1]/input",
+      "type": "sendKeys",
+      "value": "onur(oto)"
+    },
+    {
+      "name": "password",
+      "xpath": "//*[@id=\"root\"]/div/div/div/div[2]/form/div[2]/input",
+      "type": "sendKeys",
+      "value": "Onr_090807"
+    },
+    {
+      "name": "loginBtn",
+      "xpath": "//*[@id=\"root\"]/div/div/div/div[2]/form/button",
+      "type": "click"
+    }
+  ]
+}

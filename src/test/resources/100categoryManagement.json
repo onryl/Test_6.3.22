@@ -1,0 +1,168 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "Category",
+      "xpath": "//div[@class='sc-gsTCUz etpEaO']//div[2]//div[1]//div[1]//p[1]//a[1]//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "5"
+    },
+
+    {
+      "name": "MainCategoryButton",
+      "xpath": "//span[normalize-space()='Ana Kategori']",
+      "type": "click"
+    },
+
+    {
+      "name": "CategoryName",
+      "xpath": "//input[@name='name']",
+      "type": "sendKeys",
+      "value": "description",
+      "Random": "1"
+    },
+    {
+      "name": "MainCategoryPick",
+      "xpath": "//input[@placeholder='Kategori Seçiniz']",
+      "type": "click"
+    },
+    {
+      "name": "MainCategoryPickSelect",
+      "xpath": "//div[@id='garden-modal-0--content']//span[@class='rc-tree-title'][contains(text(),'Kişisel Gelişim')]",
+      "type": "click"
+
+    },
+    {
+      "name": "MainCategoryPickSelectFinished",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+
+    },
+    {
+      "name": "Description",
+      "xpath": "//textarea[@placeholder='Açıklama']",
+      "type": "sendKeys",
+      "value": "description",
+      "Random": "1"
+    },
+    {
+      "name": "ViewPortal",
+      "xpath": "//input[@type='checkbox']",
+      "type": "click"
+    },
+    {
+      "name": "SelectLanguage",
+      "xpath": "//div[@class='sc-bdfBwQ csa-ddw mb15'][4]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "PickLanguage",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "Description",
+      "xpath": "//input[@name='key']",
+      "type": "sendKeys",
+      "value": "description",
+      "Random": "1"
+    },
+    {
+      "name": "Description",
+      "xpath": "//input[@name='value']",
+      "type": "sendKeys",
+      "value": "description",
+      "Random": "1"
+    },
+    {
+      "name": "SmallImage",
+      "xpath": "(//*[name()='svg'][@class='MuiSvgIcon-root'])[6]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    },
+  {
+      "name": "SmallImageSelected",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "SmallImageSelectedOk",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+    },
+    {
+      "name": "AddCategoryIcon",
+      "xpath": "(//*[name()='svg'][@class='MuiSvgIcon-root'])[8]",
+      "type": "click"
+    },
+    {
+      "name": "SelectCategoryPic",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryPicOk",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryPicture",
+      "xpath": "(//*[name()='svg'][@class='MuiSvgIcon-root'])[10]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    },
+    {
+      "name": "CategoryPictureSelected",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryPicOk",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+    },
+    {
+      "name": "AddCategoryIcon2",
+      "xpath": "(//*[name()='svg'][@class='MuiSvgIcon-root'])[10]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryIconSlct",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryIconOk",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+    },
+    {
+      "name": "CategoryIconOk",
+      "xpath": "//span[contains(text(),'Oluştur')]",
+      "type": "click"
+    },
+
+  ]
+}
+
+

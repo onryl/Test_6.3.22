@@ -1,0 +1,140 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name":"currency",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[11]/div/div/p/a[1]",
+      "type":"click"
+    },
+    {
+      "name": "addCurrency",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[3]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "isim",
+      "Random": "1"
+    },
+    {
+      "name": "key",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/input",
+      "type": "sendKeys",
+      "value": "key",
+      "Random": "1"
+    },
+    {
+      "name": "description",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "leftSembol",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/input",
+      "type": "sendKeys",
+      "value": "left sembol",
+      "Random": "1"
+    },
+    {
+      "name": "rightSembol",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[5]/input",
+      "type": "sendKeys",
+      "value": "right sembol"
+    },
+    {
+      "name": "score",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[6]/input",
+      "type": "sendKeys",
+      "value": "5"
+    },
+    {
+      "name": "decimal",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[7]/input",
+      "type": "sendKeys",
+      "value": "8"
+    },
+    {
+      "name": "commission",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[8]/input",
+      "type": "sendKeys",
+      "value": "4"
+    },
+    {
+      "name": "decimal",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[9]/input",
+      "type": "sendKeys",
+      "value": "5"
+    },
+    {
+      "name": "purchaseRate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[10]/input",
+      "type": "sendKeys",
+      "value": "3"
+    },
+    {
+      "name": "salesRate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[11]/input",
+      "type": "sendKeys",
+      "value": "2"
+    },
+    {
+      "name": "conversionRate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[12]/input",
+      "type": "sendKeys",
+      "value": "1"
+    },
+
+    {
+      "name": "create",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[11]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[11]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+
+  ]}

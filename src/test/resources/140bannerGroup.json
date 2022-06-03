@@ -1,0 +1,150 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "bannerGroup",
+      "xpath": "//a[@id='Afiş Grubu']//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "bannerGroupAdd",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[3]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "Afiş Grubu isim",
+      "Random": "1"
+    },
+    {
+      "name": "bannerGroupDescription",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/textarea",
+      "type": "sendKeys",
+      "value": "Afiş Grubu Açıklaması",
+      "Random": "1"
+    },
+    {
+       "name": "startingDate",
+       "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/input",
+       "type": "click"
+     },
+     {
+         "name": "startingDateValue",
+         "xpath": "//div[normalize-space()='2']",
+         "type": "click"
+     },
+    {
+      "name": "endDate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/input",
+      "type": "click"
+    },
+    {
+      "name": "endDateSelected",
+      "xpath": "//div[normalize-space()='18']",
+      "type": "click"
+
+    },
+    {
+      "name": "endDateSelectedClick",
+      "xpath": "//a[normalize-space()='Ok']",
+      "type": "click"
+
+    },
+
+    {
+      "name": "bannerWaitingTime",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[5]/input",
+      "type": "sendKeys",
+      "value":"10"
+    },
+    {
+      "name": "addKey",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[6]/div/input",
+      "type": "click"
+    },
+    {
+      "name": "type",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[7]/input",
+      "type": "sendKeys",
+      "value": "tür"
+    },
+    {
+      "name": "banner",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[8]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "bannerSelected",
+      "xpath": "//*[@id='react-select-3-option-0']",
+      "type": "click"
+
+    },
+    {
+        "name":"alternativeText",
+        "xpath":"//*[@id='react-tabs-0']",
+        "type":"click"
+    },
+    {
+         "name":"alternativeTextTime",
+         "xpath":"//*[@id='react-tabs-1']/div/input",
+         "type":"sendKeys",
+         "value":"5000"
+    },
+    {
+      "name": "bannerGroupCreate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[6]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    }
+  ]
+}

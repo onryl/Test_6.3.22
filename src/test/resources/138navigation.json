@@ -1,0 +1,205 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "control panel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "orientation",
+      "xpath": "//a[@id='Yönlendirme']//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "addOrientation",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "isim",
+      "Random": "1"
+    },
+    {
+      "name": "select",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "selection",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "textArea",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "type",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "typeSelection",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "section",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[5]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "sectionSelection",
+      "xpath": "//*[@id=\"react-select-4-option-2\"]",
+      "type": "click"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[6]/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "languageSelection",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "addNavigationDetails",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[7]/div/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "5"
+
+    },
+    {
+      "name": "nextName",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "name",
+      "Random": "1"
+    },
+    {
+      "name": "icon",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[2]/div/div/div",
+      "type": "click"
+    },
+    {
+      "name": "selectİmage",
+      "xpath": "//div[@class='sc-hlTvYk gjaFaH scrollPanel']//div[@class='sc-gsTCUz etpEaO']/div[1]/div/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "button",
+      "xpath": "/html/body/div[7]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "anotherIcon",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[3]/div/div/div",
+      "type": "click"
+    },
+    {
+      "name": "image",
+      "xpath": "//div[@class='sc-hlTvYk gjaFaH scrollPanel']//div[@class='sc-gsTCUz etpEaO']/div[1]/div/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "button",
+      "xpath": "/html/body/div[8]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "description",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[4]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "orientationType",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[5]/div/div",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "//*[@id=\"react-select-6-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "page",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[1]/div[6]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "pageSelected",
+      "xpath": "//*[@id=\"react-select-7-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "save",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div/form/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+
+    {
+      "name": "header",
+      "xpath": "//*[@id=\"react-tabs-1\"]/div/input",
+      "type": "sendKeys",
+      "value": "header",
+      "Random": "1"
+    },
+    {
+      "name": "end",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='name']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

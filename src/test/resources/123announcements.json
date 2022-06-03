@@ -1,0 +1,178 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]",
+      "type": "click"
+    },
+    {
+      "name":"announcements",
+      "xpath": "//div[16]//div[1]//div[1]//p[1]//a[4]//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "addAnnouncements",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "name",
+      "Random": "1"
+    },
+    {
+      "name": "startingDate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/input",
+      "type": "click"
+    },
+    {
+      "name": "startingTimeSelected",
+      "xpath": "/html/body/div[4]/div/div/div/div/div[2]/div[3]/span/a[1]",
+      "type": "click"
+    },
+    {
+      "name": "endingDate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/input",
+      "type": "click"
+    },
+    {
+      "name": "endingDateSelected",
+      "xpath": "//div[normalize-space()='25']",
+      "type": "click"
+    },
+    {
+      "name": "clickOk",
+      "xpath": "/html/body/div[5]/div/div/div/div/div[2]/div[3]/span/a[3]",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroup",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/div[1]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroupSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[6]/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "languageSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "header",
+      "xpath": "//*[@id=\"react-tabs-1\"]/div[1]/input",
+      "type": "sendKeys",
+      "value": "header",
+      "Random": "1"
+    },
+    {
+      "name": "sleep",
+      "type" : "sleep",
+      "value": "3"
+    },
+
+    {
+      "name": "textArea",
+      "script": "tinyMCE.activeEditor.setContent(arguments[0])",
+      "type": "executeScript",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "smallPicture",
+      "xpath": "//*[@id=\"react-tabs-1\"]/div[3]/div[1]/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "selectedSmallPicture",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "//span[contains(text(),'Seçiniz')]",
+      "type": "click"
+    },
+    {
+      "name": "anotherImage",
+      "xpath": "//*[@id=\"react-tabs-1\"]/div[3]/div[2]/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "5"
+
+    },
+    {
+      "name": "selectedAnotherImage",
+      "xpath": "//body//div//div[@class='sc-gsTCUz etpEaO']//div[@class='sc-gsTCUz etpEaO']//div[1]//div[1]//div[1]//div[2]//label[1]//div[1]",
+      "type": "click"
+    },
+
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    },
+    {
+      "name": "selected",
+      "xpath": "/html/body/div[8]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "create",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@placeholder='İsim']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "Delete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "DeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "DeleteClickFinish",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

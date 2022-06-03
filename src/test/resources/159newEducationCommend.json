@@ -1,0 +1,42 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]",
+      "type": "click"
+    },
+    {
+      "name": "socialNotification",
+      "xpath": "//div[16]//div[1]//div[1]//p[1]//a[6]//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "newEducationComment",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div/div[2]/div[3]/a",
+      "type": "click"
+    },
+    {
+      "name": "language",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/form/div[1]/div[1]/div",
+      "type": "click"
+    },
+    {
+      "name": "languageSelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "subject",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/form/div[1]/div[2]/input",
+      "type": "clearAndSendKeys",
+      "value": "subject",
+      "Random": "1"
+    },
+    {
+      "name": "update",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/form/div[3]/div[2]/button[2]",
+      "type": "click"
+    }
+  ]}

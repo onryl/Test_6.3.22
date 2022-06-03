@@ -1,0 +1,95 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "integrationApplication",
+      "xpath": "//a[@id='Entegrasyon(Oauth2) Uygulaması']//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "oauth2Aplication",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/div[2]/div[1]/a/div",
+      "type": "click"
+    },
+    {
+      "name": "addPerson",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div/div/input",
+      "type": "click"
+    },
+    {
+      "name": "personSelected",
+      "xpath": "/html/body/div[5]/div/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div[2]",
+      "type": "click"
+    },
+    {
+          "name": "addPersonBtn",
+          "xpath": "//span[contains(text(),'Seçiniz')]",
+          "type": "click"
+    },
+    {
+        "name":"state",
+        "xpath":"//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div/div/div[2]/div",
+        "type":"click"
+    },
+    {
+        "name":"stateSelected",
+        "xpath":"//*[@id='react-select-2-option-0']",
+        "type":"click"
+    },
+   {
+        "name":"clientName",
+        "xpath":"//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/input",
+        "type":"sendKeys",
+        "value":"client"
+
+     },
+    {
+         "name":"clientName2",
+         "xpath":"//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/input",
+         "type":"sendKeys",
+         "value":"client2"
+
+     },
+
+
+    {
+      "name":"lastClick ",
+      "xpath":"//span[contains(text(),'Oluştur')]",
+      "type":"click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='clientName']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+
+  ]
+}

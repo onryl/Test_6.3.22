@@ -1,0 +1,40 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]",
+      "type": "click"
+    },
+    {
+      "name": "costManagement",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[11]/div/div/p/a[4]",
+      "type": "click"
+    },
+    {
+      "name": "costCenter",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/div[1]/a",
+      "type": "click"
+    },
+
+    {
+      "name": "YearStart",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/div[1]/input[1]",
+      "type": "backspace",
+      "value": "0212"
+    },
+
+    {
+      "name": "EndStart",
+      "xpath": "//input[@name='yearEnd']",
+      "type": "backspace",
+      "value": "0812"
+    },
+    {
+      "name": "Save",
+      "xpath": "//span[normalize-space()='Kaydet']",
+      "type": "click"
+    }
+  ]
+}

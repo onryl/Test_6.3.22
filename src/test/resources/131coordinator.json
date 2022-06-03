@@ -1,0 +1,130 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks": [
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]",
+      "type": "click"
+    },
+    {
+      "name": "coordinator",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[3]/div/div/p/a[4]",
+      "type": "click"
+    },
+    {
+      "name": "addCoordinator",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div[2]/div/a/button",
+      "type": "click"
+    },
+    {
+      "name": "addPerson",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div/div/input",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "3"
+
+    },
+    {
+      "name": "selectPerson",
+      "xpath": "/html/body/div[4]/div/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div[2]",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "/html/body/div[4]/div/div/div[3]/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "coordinatorInformation",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "checkbox1",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[3]/div/input",
+      "type": "click"
+    },
+    {
+      "name": "checkbox2",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[4]/div/input",
+      "type": "click"
+    },
+    {
+      "name": "checkbox3",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[5]/div/input",
+      "type": "click"
+    },
+    {
+      "name": "create",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "PushExcel",
+      "xpath": "//span[normalize-space()=\"Excel'e Aktar\"]",
+      "type": "click"
+    },
+    {
+      "name": "PushExcelAktar",
+      "xpath": "//li[normalize-space()=\"Excel'e Aktar\"]",
+      "type": "click"
+    },
+    {
+      "name": "Cancel",
+      "xpath": "//span[contains(text(),'İptal')]",
+      "type": "click"
+    },
+    {
+      "name": "EducationList",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/button[1]/span[1]/*[name()='svg'][1]/*[name()='path'][2]",
+      "type": "click"
+    },
+    {
+      "name": "CloseList",
+      "xpath": "(//span[@class='MuiButton-label'][normalize-space()='Kapat'])[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//textarea[@name='coordinatorInformation']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]}

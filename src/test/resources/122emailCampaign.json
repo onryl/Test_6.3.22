@@ -1,0 +1,173 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "emailCampaign",
+      "xpath": "//div[16]//div[1]//div[1]//p[1]//a[3]//b[1]",
+      "type": "click"
+    },
+    {
+      "name": "addEmailCampaign",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "emailCampaignName",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[1]/input",
+      "type": "sendKeys",
+      "value":"E-posta Kampanya Adını",
+      "Random": "1"
+    },
+    {
+      "name": "sender",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[2]/input",
+      "type": "sendKeys",
+      "value":"Gönderici",
+      "Random": "1"
+    },
+    {
+      "name": "sleep",
+      "xpath":"sleep",
+      "type": "5"
+    },
+
+    {
+      "name": "startingDate",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[3]/input",
+      "type": "click"
+    },
+
+    {
+      "name": "startingDateSelected",
+      "xpath": "//div[normalize-space()='6']",
+      "type": "click"
+    },
+
+    {
+      "name": "StartingDateOk",
+      "xpath":"//a[normalize-space()='Ok']",
+      "type" : "click"
+
+    },
+    {
+      "name": "sleep",
+      "xpath":"sleep",
+      "type": "5"
+    },
+    {
+      "name": "endDate",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[4]/input",
+      "type": "click"
+    },
+    {
+      "name": "endDateSelected",
+      "xpath": "/html/body/div[6]/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td[5]/div",
+      "type": "click"
+    },
+    {
+      "name" : "endDateOk",
+      "xpath": " /html/body/div[6]/div/div/div/div/div[2]/div[3]/span/a[3]",
+      "type": "click"
+    },
+
+    {
+      "name": "subject",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[1]/div/div[5]/input",
+      "type": "sendKeys",
+      "value":"Konu",
+      "Random": "1"
+    },
+    {
+      "name": "sleep",
+      "xpath":"sleep",
+      "type": "3"
+    },
+
+    {
+      "name": "addDynamicGroup",
+      "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div[2]/div[1]/div/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroupSelected",
+      "xpath": "/html/body/div[7]/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[1]/div[1]/input",
+      "type": "click"
+    },
+     {
+        "name":"addDynamicGroupBtn",
+        "xpath":"/html/body/div[7]/div/div/div[3]/span[2]/button",
+        "type":"click"
+     },
+       {
+         "name": "addUser",
+         "xpath": "//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div[2]/div[2]/div[2]/div/div/div/div/div/button",
+         "type": "click"
+       },
+
+       {
+         "name": "userSelected",
+         "xpath": "//div[@role='table']/div[2]/div[1]/div[1]/label",
+         "type": "click"
+       },
+       {
+        "name":"addUserBtn",
+        "xpath":"/html/body/div[7]/div/div/div[3]/span[2]/button",
+        "type":"click"
+       },
+        {
+           "name": "content",
+           "script":"tinyMCE.activeEditor.setContent(arguments[0])",
+           "type": "executeScript",
+           "value": "İçerik"
+         },
+         {
+            "name":"emailCampaignCreate",
+            "xpath":"//*[@id='root']/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[3]/div[2]/button[2]",
+            "type":"click"
+         },
+          {
+            "name": "Update",
+            "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+            "type": "click"
+          },
+          {
+            "name": "UpdateClick",
+            "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+            "type": "click"
+          },
+          {
+            "name": "UpdateNAme",
+            "xpath": "//input[@placeholder='E-Posta Kampanya Adı']",
+            "type": "clearAndSendKeys",
+            "value": "desciption",
+            "Random": "1"
+          },
+          {
+            "name": "UpdateClickFinish",
+            "xpath": "//span[normalize-space()='Güncelle']",
+            "type": "click"
+          },
+          {
+            "name": "UpdateDelete",
+            "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+            "type": "click"
+          },
+          {
+            "name": "UpdateDeleteClick",
+            "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+            "type": "click"
+          },
+          {
+            "name": "UpdateDeleteClickOk",
+            "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+            "type": "click"
+          }
+
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "geographicRegion",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[5]/div/div/p/a[5]",
+      "type": "click"
+    },
+    {
+      "name": "addGeographicRegion",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[3]/button",
+      "type": "click"
+    },
+    {
+      "name": "geographicRegionName",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/form/div[1]/div[1]/input",
+      "type": "sendKeys",
+      "value": "Coğrafi Bölge",
+      "Random": "1"
+    },
+    {
+      "name": "key",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/form/div[1]/div[2]/input",
+      "type": "sendKeys",
+      "value": "key",
+      "Random": "1"
+    },
+    {
+      "name": "country",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/form/div[1]/div[3]/div[1]/div[1]/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "countrySelected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[2]",
+      "type": "click"
+    },
+    {
+      "name": "geographicRegionCreate",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/form/div[2]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//input[@name='key']",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}

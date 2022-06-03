@@ -1,0 +1,125 @@
+{
+  "endpoint" : "gobitoAkademi",
+  "tasks":[
+
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroup",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/p/a[2]",
+      "type": "click"
+    },
+    {
+      "name": "addDynamicGroup",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[3]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "Name",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "İsim",
+      "Random": "1"
+    },
+    {
+      "name": "description",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div/div[2]/textarea",
+      "type": "sendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "dynamicGroupType",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div/div[3]/div[1]/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroupTypeSelected",
+      "xpath": "//*[@id=\"react-select-2-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "showInSocialGroupList",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[1]/div/div[4]/div/div/input",
+      "type": "click"
+    },
+    {
+      "name": "addUser",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[2]/div[2]/div/div/div/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "userSelected",
+      "xpath": "/html/body/div[4]/div/div/div[2]/div/div/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div[1]/label/div",
+      "type": "click"
+    },
+    {
+      "name": "addUserBtn",
+      "xpath": "/html/body/div[4]/div/div/div[3]/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "dynamicGroupCreate",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/form/div/div[3]/div[2]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Updatelick",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+
+    {
+      "name": "Update",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "//div[@class='sc-TmcTc hmrmuF']/div[2]/div[1]/div/div[1]/input",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "2"
+
+    },
+    {
+      "name": "UpdateClickOk",
+      "xpath": "/html[1]/body[1]/div[4]/div[1]/div[1]/div[3]/span[2]/button[1]",
+      "type": "click"
+
+    },
+    {
+      "name": "DeleteClick",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+
+    },
+    {
+      "name": "DeleteClickOk",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+
+    },
+    {
+      "name": "DeleteClickOkFnsh",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+
+    }
+  ]
+}

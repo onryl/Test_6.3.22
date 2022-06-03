@@ -1,0 +1,186 @@
+{
+  "endpoint": "gobitoAkademi",
+  "tasks":[
+    {
+      "name": "controlPanel",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/ul/li[5]/a",
+      "type": "click"
+    },
+    {
+      "name": "livingRoom",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div[6]/div/div/p/a[1]",
+      "type": "click"
+    },
+    {
+      "name": "addLivingRoom",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div/div/div[2]/form/div/div[4]/a/button",
+      "type": "click"
+    },
+    {
+      "name": "livingRoomName",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "name",
+      "Random": "1"
+    },
+    {
+      "name": "livingRoomDescription",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[2]/textarea",
+      "type": "sendKeys",
+      "value": "text area",
+      "Random": "1"
+    },
+    {
+      "name": "hallİnventory",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/div[1]/div[1]/div[2]/button/span[1]",
+      "type": "click"
+    },
+    {
+      "name": "sleep",
+      "type": "sleep",
+      "value": "2"
+    },
+    {
+      "name": "inventory",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div[1]/div[1]/div/div[2]/div",
+      "type": "click"
+    },
+    {
+      "name": "inventorySelected",
+      "xpath": "//*[@id=\"react-select-6-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "quantity",
+      "xpath": "//*[@id=\"garden-modal-0--content\"]/div/div/div[2]/input",
+      "type": "sendKeys",
+      "value": "4"
+    },
+    {
+      "name": "add",
+      "xpath": "/html/body/div[4]/div/div/div[3]/div/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "hallManager",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/div[2]/div[1]/div/button",
+      "type": "click"
+    },
+    {
+      "name": "name",
+      "xpath": "//*[@id=\"garden-modal-2--content\"]/div/div/div[1]/input",
+      "type": "sendKeys",
+      "value": "name",
+      "Random": "1"
+    },
+    {
+      "name": "surname",
+      "xpath": "//*[@id=\"garden-modal-2--content\"]/div/div/div[2]/input",
+      "type": "sendKeys",
+      "value": "surname",
+      "Random": "1"
+    },
+    {
+      "name": "gmail",
+      "xpath": "//*[@id=\"garden-modal-2--content\"]/div/div/div[3]/input",
+      "type": "sendKeys",
+      "value": "peldapetekkayaa@gamil.com"
+    },
+    {
+      "name": "telephone",
+      "xpath": "//*[@id=\"garden-modal-2--content\"]/div/div/div[4]/input",
+      "type": "sendKeys",
+      "value": "5465722545"
+    },
+    {
+      "name": "create",
+      "xpath": "/html/body/div[4]/div/div/div[2]/span[2]/button",
+      "type": "click"
+    },
+    {
+      "name": "selectLocation",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[3]/div[1]/div/div[2]",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "//*[@id=\"react-select-3-option-0\"]",
+      "type": "click"
+    },
+    {
+      "name": "livingRoomCapacity",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[4]/input",
+      "type": "sendKeys",
+      "value": "100"
+    },
+
+    {
+      "name": "selectMoneyType",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[5]/div/div/div[1]/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "selected",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "hallFee",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[6]/input",
+      "type": "sendKeys",
+      "value": "5"
+    },
+    {
+      "name": "livingRoomType",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div[1]/div/div/div/div[7]/div[1]/div",
+      "type": "click"
+    },
+    {
+      "name": "selection",
+      "xpath": "//div[@class='r-select__menu css-1jknvbe-menu']/div/div[1]",
+      "type": "click"
+    },
+    {
+      "name": "end",
+      "xpath": "//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[3]/button[2]",
+      "type": "click"
+    },
+    {
+      "name": "Update",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[7]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Düzenle'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateNAme",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]",
+      "type": "clearAndSendKeys",
+      "value": "desciption",
+      "Random": "1"
+    },
+    {
+      "name": "UpdateClickFinish",
+      "xpath": "//span[normalize-space()='Güncelle']",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDelete",
+      "xpath": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]/div[1]/div[2]/div[1]/div[7]/div[1]/div[1]/button[1]/span[1]/*[name()='svg'][1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClick",
+      "xpath": "(//div[@class='sc-cTkwdZ loSqjB'][normalize-space()='Sil'])[1]",
+      "type": "click"
+    },
+    {
+      "name": "UpdateDeleteClickOk",
+      "xpath": "//span[@class='MuiButton-label'][normalize-space()='Sil']",
+      "type": "click"
+    }
+  ]
+}
